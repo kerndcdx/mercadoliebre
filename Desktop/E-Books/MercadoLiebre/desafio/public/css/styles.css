@@ -1,0 +1,336 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+main{
+    width: 100% !important;
+    background-color: #DDDDDD ;
+}
+.form{
+    height: 910px;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    
+
+}
+.espacio{
+    align-self: center;
+    box-shadow: 0px 0px 0px;
+    height: 35px;
+    width: 85%;
+    margin: 2%;
+    border-radius: 5px;
+    border: 0px solid;
+}
+.azul{
+    background-color: rgb(0, 68, 255) ;
+    color:white;
+}
+.checkbox{
+    margin: 2%;
+}
+
+.login{
+    height: 200px;
+    width: 100%;    
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    
+
+}
+.espacio2{
+    box-shadow: 0px 0px 0px;
+    height: 35px;
+    width: 60%;
+    margin: 1%;
+    border-radius: 5px;
+    border: 0px solid;
+}
+
+
+.inicio{
+    align-self: flex-end;
+    width: 50%;
+}
+.caja1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.main-top{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    position: relative;
+}
+body{
+    font-family: 'Roboto';
+}
+.main-header{
+    background-color: #EAC926;
+    font-family: Roboto;
+    padding: 20px;
+}
+.product_img{
+
+    margin-left: auto;
+    margin-right:auto;
+    width: 100%;
+    height: auto;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-left: -20px;
+}
+body{
+    font-family: Roboto;
+}
+img{
+   width: 200px;
+}
+
+.titulares{
+    font-size: 24px;
+    color: #666;
+
+}
+.descuento{
+    font-size: 16px;
+    color: green;
+    
+}
+
+.descripcion{
+
+   font-size: 16px;
+}
+.precio{
+
+    font-size: 18px;
+}
+.login-bar{
+    display: flex;
+
+}
+.bordes{
+    align-self: center;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+}
+.login-bar,img{
+    flex-grow: 1;
+}
+.compra{
+    text-align: center;
+    font-size: 18px;
+}
+
+footer{
+text-align: center;
+margin-bottom: 10px;
+
+}
+h4{
+    color: #666;
+}
+.nav-bar, ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.nav-bar {
+    justify-self: flex-end;
+text-decoration: none;
+color: #222222;
+padding: 0px 0;
+font-size: 17px;
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+
+
+}
+
+.burger-menu{
+background-color: darkblue;
+color: white;
+display: block;
+max-width: 50px;
+padding: 15px 0;
+border-radius: 8px;
+text-align: center;
+font-size: 18px;
+margin: auto;
+}
+.seccionproductos{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-color: #ebebeb;
+    background-color: #ebebeb;
+    width: 55%;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+
+.icono{
+    color: rgb(0, 149, 255) !important;
+}
+.mainproductos{
+    align-content: center;
+    width: 90%;
+}
+.elementosproductos{
+    position: relative;
+    text-align: left;
+    border-color: #ebebeb;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.fa-truck{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+    
+    .nav-bar{
+    display: none;
+   }
+    .descripcion{
+        display: none;
+    }
+    .img{
+        width: 40%;
+        justify-self: flex-start;
+    }
+    .login-bar{
+        width: 60%;
+        margin-left: 2%;
+        justify-self: flex-end;
+
+    }
+    .seccionproductos{
+        width: 40%;
+    }
+    .form{
+        height: 860px;
+        width: 90%;
+        margin-left: 4%;
+    }
+    .espacio{
+        margin: 5%;
+    }
+    .login{
+        height: 200px;
+        justify-content: center;
+
+    }
+    .espacio2{
+        width: 90%;
+        margin: 3%;
+    }
+    .checkbox
+    {
+        margin: 5%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .seccionproductos{
+        width: 20%;
+    }
+    .burger-menu{
+        display: none;
+        
+    }
+    .img{
+        height: 50px;
+        width: 20%;
+        justify-self: flex-start;
+    }    
+    .login-bar{
+        width: 30%;
+        margin-left: 2%;
+        justify-self: flex-end;
+
+    }
+    .nav-bar{
+        align-self: flex-end;
+    }
+    .main-top{
+        height: 50px;
+    }
+    .espacio{
+        width: 95%;
+        align-self: center;
+        margin-right: 8%;
+    }
+    .espacio2{
+        width: 95%;
+
+    }
+    .login{
+        justify-content: center;
+    }
+
+
+}
+
+@media (min-width: 769px) {
+    .seccionproductos{
+        width: 20%;
+    }
+
+    .burger-menu{
+        display: none;
+        
+    }
+    .img{
+        height: 60px;
+        width: 20%;
+        justify-self: flex-start;
+    }    
+    .login-bar{
+        width: 30%;
+        margin-left: 2%;
+        justify-self: flex-end;
+
+    }
+    .compra{
+        width: 40%;
+        justify-self: left;
+    }
+    .login{
+    }
+
+}
